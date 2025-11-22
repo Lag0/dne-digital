@@ -14,9 +14,6 @@ const SvgComponent = (
     className="w-[220px]"
     x={0}
     y={0}
-    style={{
-      enableBackground: "new 0 0 119.978 35.209",
-    }}
     ref={ref}
     {...props}
   >
