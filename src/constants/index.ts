@@ -55,6 +55,20 @@ export const DATABASE: Record<string, Student> = {
     qrcode:
       "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=AndreaCIE",
   },
+joao: {
+    nome: "Leo Ibsch Linhares",
+    instituicao: "Mackenzie",
+    curso: "Direito",
+    nivel: "SUPERIOR",
+    rg: "398004705",
+    cpf: "39456076806",
+    nascimento: "12/10/2002",
+    validade: "31/04/2026",
+    codigoCie: "10XC8T",
+    foto: "https://cdn.discordapp.com/attachments/1018609889985187911/1455711688358629466/59c47756-afe8-4d22-865b-d5b4feecb172.jpg?ex=6955b8a8&is=69546728&hm=c1585e1184ad8fc5c16e2db25e09e5db8dffde963ad528c0da2c757ea8cab7d2&",
+    qrcode:
+      "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=JoaoCIE",
+  },
 };
 
 export const STUDENT_IDS = Object.keys(DATABASE);
