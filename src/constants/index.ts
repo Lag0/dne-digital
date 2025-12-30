@@ -23,9 +23,7 @@ export const DATABASE: Record<string, Student> = {
     nascimento: "03/11/2000",
     validade: "31/03/2026",
     codigoCie: "09ZB5S",
-    foto: "https://cdn.discordapp.com/attachments/1018609889985187911/1441844439415783596/image.png?ex=692345c6&is=6921f446&hm=b3b6e19bee9864fd2362a2a649ba7979502680c6d13338317c9c86fb6f3be775&",
-    // foto: "https://cdn.discordapp.com/attachments/1018609889985187911/1441844439415783596/image.png?ex=692345c6&is=6921f446&hm=b3b6e19bee9864fd2362a2a649ba7979502680c6d13338317c9c86fb6f3be775&"[
-    // foto: "https://cdn.discordapp.com/attachments/1018609889985187911/1441844439415783596/image.png?ex=692345c6&is=6921f446&hm=b3b6e19bee9864fd2362a2a649ba7979502680c6d13338317c9c86fb6f3be775&1[
+    foto: "https://cdn.discordapp.com/attachments/1018609889985187911/1455663723661492279/image.png?ex=69558bfc&is=69543a7c&hm=8a936233d1f794f6947577f0aba3ebf5ca72bdeaa2c6bdcfb9c495c788565bb6&",
     qrcode:
       "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=LuccasCIE",
   },
