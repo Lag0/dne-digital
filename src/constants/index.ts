@@ -55,7 +55,7 @@ export const DATABASE: Record<string, Student> = {
     qrcode:
       "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=AndreaCIE",
   },
-joao: {
+  leo: {
     nome: "Leo Ibsch Linhares",
     instituicao: "Mackenzie",
     curso: "Direito",
