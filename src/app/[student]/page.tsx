@@ -21,7 +21,7 @@ export default async function StudentPage({
   return (
     <>
       {/* Dispositivo Mobile */}
-      <div className="font-sans w-full bg-dne-mint h-[100dvh] md:h-[844px] md:rounded-[40px] overflow-hidden relative flex flex-col shadow-2xl border-0 md:border-8 border-stone-800">
+      <div className="font-sans w-full bg-dne-mint h-[100dvh] overflow-hidden relative flex flex-col shadow-2xl border-0">
         <CardHeader />
         <div className="px-3 py-2 flex gap-3 h-[280px]">
           <PhotoCard
