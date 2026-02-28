@@ -99,6 +99,15 @@ None - nenhuma configuracao de servico externo necessaria.
 - Logica extensivel: adicionar `/public/photos/luccas.jpeg` no futuro eliminaria automaticamente o fallback para esse estudante
 - Pronto para continuacao dos demais planos da fase 03-polish
 
+## Self-Check: PASSED
+
+- FOUND: src/components/photo-card.tsx
+- FOUND: src/app/[student]/page.tsx
+- FOUND: .planning/phases/03-polish/03-01-SUMMARY.md
+- FOUND commit: c9d3c0f (T1)
+- FOUND commit: cb25acc (T2)
+- FOUND commit: d391cf0 (docs metadata)
+
 ---
 *Phase: 03-polish*
 *Completed: 2026-02-28*
