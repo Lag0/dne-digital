@@ -44,14 +44,14 @@ Plans:
   3. O card foto+QR aparece lado a lado com proporcoes corretas e QR gerado do codigoCie
   4. O card de informacoes exibe exatamente os 5 campos do app original com label bold + valor cinza
   5. O botao Certificado e pill azul solido (#1B3A6B), nao transparente com borda
-**Plans**: TBD
+**Plans**: 5 plans
 
 Plans:
-- [ ] 02-01: Extrair assets (cor mint exata, fonte logo, SVG icone UNE) de dne.org.br e configurar next/font
-- [ ] 02-02: Implementar CardHeader (logo + icone UNE + hamburguer)
-- [ ] 02-03: Implementar PhotoCard e QrCard com proporcoes corretas (next/image fill mode)
-- [ ] 02-04: Implementar InfoCard com 5 campos corretos e pattern label bold + valor cinza
-- [ ] 02-05: Implementar CardFooter (botao Certificado solid + badge Apple Wallet)
+- [ ] 02-01-PLAN.md — Extrair assets (cor mint, SVG UNE) de dne.org.br e configurar SVGR via turbopack.rules
+- [ ] 02-02-PLAN.md — Implementar CardHeader (logo Nunito + icone UNE + subtitulo + hamburger)
+- [ ] 02-03-PLAN.md — Implementar PhotoCard (fill mode) e QrCard com proporcoes corretas
+- [ ] 02-04-PLAN.md — Implementar InfoCard com 5 campos corretos e pattern label bold + valor cinza
+- [ ] 02-05-PLAN.md — Implementar CardFooter (botao Certificado solid + badge Apple Wallet)
 
 ### Phase 3: Polish
 **Goal**: A carteirinha funciona sem falhas em demo — foto nao depende de CDN externo, clipboard funciona, classes Tailwind invalidas corrigidas
