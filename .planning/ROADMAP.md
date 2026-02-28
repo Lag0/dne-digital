@@ -26,13 +26,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   1. Ao carregar qualquer rota `/[student]`, o QR code aparece mesmo sem acesso a internet
   2. A pagina renderiza com fundo mint DNE e container mobile de 390px em desktop
   3. A tipagem `Student` reflete apenas os campos visiveis no app original (sem `nivel`, `rg`)
-  4. Os tokens CSS `--color-dne-mint`, `--color-dne-navy`, `--width-phone` estao definidos em `@theme`
-**Plans**: TBD
+  4. Os tokens CSS `--color-dne-mint`, `--color-dne-navy` estao definidos em `@theme inline`
+**Plans**: 3 plans
 
 Plans:
-- [ ] 01-01: Instalar qrcode.react e substituir api.qrserver.com por QRCodeSVG local
-- [ ] 01-02: Definir tokens CSS no @theme, corrigir container mobile (max-w-[390px], h-[100dvh]), background desktop stone-900
-- [ ] 01-03: Atualizar tipo Student, DATABASE e campos do InfoCard para remover nivel e rg
+- [ ] 01-01-PLAN.md — Instalar qrcode.react, limpar Student type/DATABASE, substituir QR atomicamente
+- [ ] 01-02-PLAN.md — Definir tokens CSS DNE em @theme inline, carregar Nunito via next/font/google
+- [ ] 01-03-PLAN.md — Corrigir container mobile (390px, h-[100dvh], 844px), bug w-[160px]
 
 ### Phase 2: Visual Components
 **Goal**: A carteirinha e visualmente indistinguivel do app original DNE — todos os componentes implementados com tipografia, cores, espacamentos e proporcoes corretos
