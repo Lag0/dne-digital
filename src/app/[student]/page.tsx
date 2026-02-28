@@ -23,7 +23,7 @@ export default async function StudentPage({
     // Container Principal (Background escuro para desktop, simula o celular)
     <main className="min-h-screen bg-stone-900 flex items-center justify-center p-0 md:p-4 font-sans">
       {/* Dispositivo Mobile */}
-      <div className="w-full max-w-[400px] bg-[#8CD6BF] h-screen md:h-[850px] md:rounded-[40px] overflow-hidden relative flex flex-col shadow-2xl border-0 md:border-8 border-stone-800">
+      <div className="w-full max-w-[390px] bg-dne-mint h-[100dvh] md:h-[844px] md:rounded-[40px] overflow-hidden relative flex flex-col shadow-2xl border-0 md:border-8 border-stone-800">
         {/* --- STATUS BAR (Fake) --- */}
         {/* <div className="px-6 pt-3 pb-2 flex justify-between items-center text-black font-semibold text-sm z-20">
           <span>14:30</span>
