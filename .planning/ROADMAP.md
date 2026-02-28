@@ -12,7 +12,7 @@ Clone pixel-perfect da carteirinha estudantil DNE em 3 fases. A base Next.js 16 
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Tokens CSS, model de dados limpo, QR local e frame mobile correto
+- [x] **Phase 1: Foundation** - Tokens CSS, model de dados limpo, QR local e frame mobile correto (completed 2026-02-28)
 - [ ] **Phase 2: Visual Components** - Todos os componentes pixel-perfect (header, cards, footer)
 - [ ] **Phase 3: Polish** - Clipboard, fallback de foto local, correcao de bugs
 
@@ -74,6 +74,6 @@ Phases execute in numeric order: 1 -> 2 -> 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 2/3 | In progress | - |
+| 1. Foundation | 3/3 | Complete   | 2026-02-28 |
 | 2. Visual Components | 0/5 | Not started | - |
 | 3. Polish | 0/2 | Not started | - |

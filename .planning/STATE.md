@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2026-02-28)
 ## Current Position
 
 Phase: 1 of 3 (Foundation)
-Plan: 2 of 3 in current phase
-Status: In progress
-Last activity: 2026-02-28 — Plan 01-02 complete: tokens DNE (mint, navy, text) no @theme inline, Nunito carregada
+Plan: 3 of 3 in current phase
+Status: Phase 1 complete
+Last activity: 2026-02-28 — Plan 01-03 complete: container mobile 390x844px, h-[100dvh], bg-dne-mint, bug w-[160px] corrigido
 
-Progress: [██░░░░░░░░] 22%
+Progress: [███░░░░░░░] 33%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 2
-- Average duration: 3min
+- Total plans completed: 3
+- Average duration: 2min
 - Total execution time: 0.1 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 01-foundation | 2/3 | 6min | 3min |
+| 01-foundation | 3/3 | 7min | 2min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (5min), 01-02 (1min)
-- Trend: -
+- Last 5 plans: 01-01 (5min), 01-02 (1min), 01-03 (1min)
+- Trend: stable
 
 *Updated after each plan completion*
 
@@ -51,6 +51,9 @@ Recent decisions affecting current work:
 - [01-02]: Tokens adicionados ao @theme inline existente — nao criar segundo bloco para preservar semantica CSS
 - [01-02]: Nunito sem campo weight — variable font no Google Fonts, aceita qualquer peso via CSS
 - [01-02]: Nunito nao aplicada ao body — apenas --font-nunito como CSS custom property para uso seletivo no logo
+- [01-03]: h-[100dvh] em vez de h-screen — dvh considera barra de endereco do iOS Safari, evita clipping
+- [01-03]: bg-dne-mint confirma token CSS sobre hex inline para cores DNE
+- [01-03]: 390px/844px sao dimensoes logicas corretas do iPhone 14 (nao 400px/850px)
 
 ### Pending Todos
 
@@ -63,5 +66,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-28
-Stopped at: Completed 01-02-PLAN.md — tokens DNE no @theme inline, Nunito font carregada
+Stopped at: Completed 01-03-PLAN.md — Phase 1 Foundation completa
 Resume file: None

@@ -11,8 +11,8 @@ Requirements for initial release (pixel-perfect clone).
 
 - [x] **FOUND-01**: Sistema de tokens CSS com cores exatas do DNE (mint `#8CD6BF` a confirmar, azul botão `#1B3A6B`) definidos em `@theme`
 - [x] **FOUND-02**: Fonte rounded display (Nunito ExtraBold ou equivalente) carregada via `next/font/google` para o logo "dne"
-- [ ] **FOUND-03**: Background da página desktop com fundo escuro (`stone-900`) simulando frame de celular
-- [ ] **FOUND-04**: Container mobile com `max-width: 390px`, `h-[100dvh]` (corrigindo `h-screen` para iOS Safari)
+- [x] **FOUND-03**: Background da página desktop com fundo escuro (`stone-900`) simulando frame de celular
+- [x] **FOUND-04**: Container mobile com `max-width: 390px`, `h-[100dvh]` (corrigindo `h-screen` para iOS Safari)
 
 ### Header
 
@@ -76,8 +76,8 @@ Deferred to future release.
 |-------------|-------|--------|
 | FOUND-01 | Phase 1 | Complete |
 | FOUND-02 | Phase 1 | Complete |
-| FOUND-03 | Phase 1 | Pending |
-| FOUND-04 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Complete |
+| FOUND-04 | Phase 1 | Complete |
 | DATA-01 | Phase 1 | Complete |
 | DATA-02 | Phase 1 | Complete |
 | DATA-03 | Phase 1 | Complete |
