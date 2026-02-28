@@ -1,6 +1,7 @@
-import { Globe, Menu, Copy, Check } from "lucide-react"; // Instale: npm install lucide-react
+import { Globe, Menu, Copy, Check } from "lucide-react";
 import { InfoRow } from "@/components/info-row";
 import Image from "next/image";
+import { QRCodeSVG } from "qrcode.react";
 import { DATABASE, STUDENT_IDS } from "@/constants";
 import { notFound } from "next/navigation";
 import AppleWallet from "@/components/apple-wallet";
@@ -73,11 +74,13 @@ export default async function StudentPage({
 
           {/* QR Code */}
           <div className="bg-white rounded-xl py-1 shadow-sm w-1/2 flex flex-col items-center justify-center text-center relative">
-            <Image
-              src={data.qrcode}
-              alt="QR Code"
-              width={200}
-              height={200}
+            <QRCodeSVG
+              value={data.codigoCie}
+              size={160}
+              bgColor="#FFFFFF"
+              fgColor="#000000"
+              level="M"
+              marginSize={1}
               className="w-[95%] mix-blend-multiply"
             />
             <div className="mt-2 flex flex-col items-center">
@@ -103,8 +106,6 @@ export default async function StudentPage({
           <div className="space-y-[5px] text-[13px] leading-snug">
             <InfoRow label="Ins. Ensino" value={data.instituicao} />
             <InfoRow label="Curso" value={data.curso} />
-            <InfoRow label="Nível de Ensino" value={data.nivel} />
-            <InfoRow label="RG" value={data.rg} />
             <InfoRow label="CPF" value={data.cpf} />
             <InfoRow label="Data de Nasc" value={data.nascimento} />
             <InfoRow label="Validade" value={data.validade} />
