@@ -63,5 +63,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-28
-Stopped at: Completed 01-01-PLAN.md — qrcode.react instalado, Student limpo, QR local
+Stopped at: Completed 01-02-PLAN.md — tokens DNE no @theme inline, Nunito font carregada
 Resume file: None

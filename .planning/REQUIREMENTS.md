@@ -9,8 +9,8 @@ Requirements for initial release (pixel-perfect clone).
 
 ### Foundation
 
-- [ ] **FOUND-01**: Sistema de tokens CSS com cores exatas do DNE (mint `#8CD6BF` a confirmar, azul botão `#1B3A6B`) definidos em `@theme`
-- [ ] **FOUND-02**: Fonte rounded display (Nunito ExtraBold ou equivalente) carregada via `next/font/google` para o logo "dne"
+- [x] **FOUND-01**: Sistema de tokens CSS com cores exatas do DNE (mint `#8CD6BF` a confirmar, azul botão `#1B3A6B`) definidos em `@theme`
+- [x] **FOUND-02**: Fonte rounded display (Nunito ExtraBold ou equivalente) carregada via `next/font/google` para o logo "dne"
 - [ ] **FOUND-03**: Background da página desktop com fundo escuro (`stone-900`) simulando frame de celular
 - [ ] **FOUND-04**: Container mobile com `max-width: 390px`, `h-[100dvh]` (corrigindo `h-screen` para iOS Safari)
 
@@ -74,8 +74,8 @@ Deferred to future release.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01 | Phase 1 | Pending |
-| FOUND-02 | Phase 1 | Pending |
+| FOUND-01 | Phase 1 | Complete |
+| FOUND-02 | Phase 1 | Complete |
 | FOUND-03 | Phase 1 | Pending |
 | FOUND-04 | Phase 1 | Pending |
 | DATA-01 | Phase 1 | Complete |
@@ -107,4 +107,4 @@ Deferred to future release.
 
 ---
 *Requirements defined: 2026-02-28*
-*Last updated: 2026-02-28 — traceability atualizada apos criacao do roadmap (3 fases)*
+*Last updated: 2026-02-28 — FOUND-01 e FOUND-02 marcados como Complete apos 01-02-PLAN*

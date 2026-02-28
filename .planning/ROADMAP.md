@@ -31,7 +31,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md — Instalar qrcode.react, limpar Student type/DATABASE, substituir QR atomicamente
-- [ ] 01-02-PLAN.md — Definir tokens CSS DNE em @theme inline, carregar Nunito via next/font/google
+- [x] 01-02-PLAN.md — Definir tokens CSS DNE em @theme inline, carregar Nunito via next/font/google
 - [ ] 01-03-PLAN.md — Corrigir container mobile (390px, h-[100dvh], 844px), bug w-[160px]
 
 ### Phase 2: Visual Components
@@ -74,6 +74,6 @@ Phases execute in numeric order: 1 -> 2 -> 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 1/3 | In progress | - |
+| 1. Foundation | 2/3 | In progress | - |
 | 2. Visual Components | 0/5 | Not started | - |
 | 3. Polish | 0/2 | Not started | - |
