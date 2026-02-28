@@ -132,7 +132,7 @@ export default async function StudentPage({
               alt="Apple Wallet"
               width={220}
               height={35}
-              className="w-[160] h-[46px]"
+              className="w-[160px] h-[46px]"
             />
           </div>
         </div>
