@@ -50,6 +50,26 @@ export const DATABASE: Record<string, Student> = {
     codigoCie: "12AB3C",
     foto: "/richards.jpeg",
   },
+  andrea: {
+    nome: "Andrea Liciane Ribeiro dos Reis",
+    instituicao: "OAB / ESA – Escola Superior de Advocacia",
+    curso: "Direito – Advocacia e Prerrogativas",
+    cpf: "558.987.939-68",
+    nascimento: "03/03/1966",
+    validade: "31/04/2026",
+    codigoCie: "10XC8T",
+    foto: "https://cdn.discordapp.com/attachments/1018609889985187911/1447062766606090473/image0.jpg?ex=693641b8&is=6934f038&hm=1f6d7b8321563d0eb10471737552a6f8fb0ce83d8c8508a949d13d9e5bcb4c65&",
+  },
+  leo: {
+    nome: "Leo Ibsch Linhares",
+    instituicao: "Mackenzie",
+    curso: "Direito",
+    cpf: "39456076806",
+    nascimento: "12/10/2002",
+    validade: "31/04/2026",
+    codigoCie: "10XC8T",
+    foto: "https://cdn.discordapp.com/attachments/1018609889985187911/1455711688358629466/59c47756-afe8-4d22-865b-d5b4feecb172.jpg?ex=6955b8a8&is=69546728&hm=c1585e1184ad8fc5c16e2db25e09e5db8dffde963ad528c0da2c757ae8cab7d2&",
+  },
 };
 
 export const STUDENT_IDS = Object.keys(DATABASE);
