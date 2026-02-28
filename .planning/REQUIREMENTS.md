@@ -78,16 +78,17 @@ Deferred to future release.
 | FOUND-02 | Phase 1 | Pending |
 | FOUND-03 | Phase 1 | Pending |
 | FOUND-04 | Phase 1 | Pending |
+| DATA-01 | Phase 1 | Pending |
+| DATA-02 | Phase 1 | Pending |
+| DATA-03 | Phase 1 | Pending |
 | HEAD-01 | Phase 2 | Pending |
 | HEAD-02 | Phase 2 | Pending |
 | HEAD-03 | Phase 2 | Pending |
 | HEAD-04 | Phase 2 | Pending |
 | CARD-01 | Phase 2 | Pending |
 | CARD-02 | Phase 2 | Pending |
-| CARD-03 | Phase 2 | Pending |
 | CARD-04 | Phase 2 | Pending |
 | CARD-05 | Phase 2 | Pending |
-| CARD-06 | Phase 2 | Pending |
 | INFO-01 | Phase 2 | Pending |
 | INFO-02 | Phase 2 | Pending |
 | INFO-03 | Phase 2 | Pending |
@@ -95,16 +96,15 @@ Deferred to future release.
 | INFO-05 | Phase 2 | Pending |
 | FOOT-01 | Phase 2 | Pending |
 | FOOT-02 | Phase 2 | Pending |
-| FOOT-03 | Phase 2 | Pending |
-| DATA-01 | Phase 1 | Pending |
-| DATA-02 | Phase 1 | Pending |
-| DATA-03 | Phase 1 | Pending |
+| CARD-03 | Phase 3 | Pending |
+| CARD-06 | Phase 3 | Pending |
+| FOOT-03 | Phase 3 | Pending |
 
 **Coverage:**
 - v1 requirements: 25 total
 - Mapped to phases: 25
-- Unmapped: 0 ✓
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-28*
-*Last updated: 2026-02-28 after initial definition*
+*Last updated: 2026-02-28 — traceability atualizada apos criacao do roadmap (3 fases)*
