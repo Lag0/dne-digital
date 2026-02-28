@@ -1,6 +1,6 @@
 import { Check } from 'lucide-react';
 import Image from 'next/image';
-import AppleWalletImage from '@/assets/Add_to_Apple_Wallet_badge.png';
+import AppleWalletImage from '@/assets/apple-wallet.png';
 
 /**
  * Footer da carteirinha com botao Certificado (pill azul solido) e badge Apple Wallet.
@@ -25,8 +25,8 @@ export const CardFooter = () => (
       <Image
         src={AppleWalletImage}
         alt="Apple Wallet"
-        width={220}
-        height={35}
+        width={160}
+        height={46}
         className="w-[160px] h-[46px]"
       />
     </div>
