@@ -28,7 +28,7 @@ Requirements for initial release (pixel-perfect clone).
 - [x] **CARD-03**: Sistema de foto local (`/public/photos/`) com fallback para URL externa (CDN)
 - [x] **CARD-04**: QR code gerado localmente via `qrcode.react` a partir do `codigoCie` (substituir `api.qrserver.com`)
 - [x] **CARD-05**: Label "Nº da CIE" + código exibido abaixo do QR
-- [ ] **CARD-06**: Botão copiar (ícone Copy) que copia o código CIE para clipboard com feedback visual
+- [x] **CARD-06**: Botão copiar (ícone Copy) que copia o código CIE para clipboard com feedback visual
 
 ### Card Informações
 
@@ -42,7 +42,7 @@ Requirements for initial release (pixel-perfect clone).
 
 - [x] **FOOT-01**: Botão "✓ Certificado" como pill azul sólido (`#1B3A6B`) — substituir versão transparente atual
 - [x] **FOOT-02**: Botão "Adicionar à Carteira da Apple" com badge Apple Wallet visualmente correto
-- [ ] **FOOT-03**: Corrigir bug `w-[160]` → `w-[160px]` na imagem do Apple Wallet badge
+- [x] **FOOT-03**: Corrigir bug `w-[160]` → `w-[160px]` na imagem do Apple Wallet badge
 
 ### Dados
 
@@ -97,8 +97,8 @@ Deferred to future release.
 | FOOT-01 | Phase 2 | Complete |
 | FOOT-02 | Phase 2 | Complete |
 | CARD-03 | Phase 3 | Complete |
-| CARD-06 | Phase 3 | Pending |
-| FOOT-03 | Phase 3 | Pending |
+| CARD-06 | Phase 3 | Complete |
+| FOOT-03 | Phase 3 | Complete |
 
 **Coverage:**
 - v1 requirements: 25 total
