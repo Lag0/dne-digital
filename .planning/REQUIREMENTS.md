@@ -23,11 +23,11 @@ Requirements for initial release (pixel-perfect clone).
 
 ### Card Foto + QR
 
-- [ ] **CARD-01**: Card branco com border-radius e shadow corretos (lado a lado: foto | QR)
-- [ ] **CARD-02**: Foto do estudante com proporção e objeto `cover` corretos
+- [x] **CARD-01**: Card branco com border-radius e shadow corretos (lado a lado: foto | QR)
+- [x] **CARD-02**: Foto do estudante com proporção e objeto `cover` corretos
 - [ ] **CARD-03**: Sistema de foto local (`/public/photos/`) com fallback para URL externa (CDN)
 - [x] **CARD-04**: QR code gerado localmente via `qrcode.react` a partir do `codigoCie` (substituir `api.qrserver.com`)
-- [ ] **CARD-05**: Label "Nº da CIE" + código exibido abaixo do QR
+- [x] **CARD-05**: Label "Nº da CIE" + código exibido abaixo do QR
 - [ ] **CARD-06**: Botão copiar (ícone Copy) que copia o código CIE para clipboard com feedback visual
 
 ### Card Informações
@@ -85,10 +85,10 @@ Deferred to future release.
 | HEAD-02 | Phase 2 | Complete |
 | HEAD-03 | Phase 2 | Complete |
 | HEAD-04 | Phase 2 | Complete |
-| CARD-01 | Phase 2 | Pending |
-| CARD-02 | Phase 2 | Pending |
+| CARD-01 | Phase 2 | Complete |
+| CARD-02 | Phase 2 | Complete |
 | CARD-04 | Phase 2 | Complete |
-| CARD-05 | Phase 2 | Pending |
+| CARD-05 | Phase 2 | Complete |
 | INFO-01 | Phase 2 | Pending |
 | INFO-02 | Phase 2 | Pending |
 | INFO-03 | Phase 2 | Pending |
