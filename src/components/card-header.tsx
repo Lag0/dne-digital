@@ -7,30 +7,29 @@ import { Menu } from "lucide-react";
  */
 export const CardHeader = () => (
   <header className="px-3 pt-2 pb-4 flex justify-between items-center">
-    {/* HEAD-01 + HEAD-02: Logo com fonte Nunito e subtitulo */}
+    {/* HEAD-01 + HEAD-02: Logo DNE + subtitulo */}
     <div className="flex flex-row items-center">
-      <h1
-        className="text-dne-navy text-5xl font-extrabold tracking-tighter select-none leading-none"
-        style={{ fontFamily: "var(--font-nunito)" }}
-      >
-        dne
-      </h1>
+      <Image
+        src="/dne-logo.png"
+        alt="DNE - Documento Nacional do Estudante"
+        width={72}
+        height={40}
+        className="object-contain"
+      />
       <span className="ml-2 text-dne-navy text-[10px] font-medium leading-tight">
-        Documento<br/> Nacional <br/> do Estudante
+        Documento<br /> Nacional<br /> do Estudante
       </span>
     </div>
 
     <div className="flex items-center gap-4">
-      {/* HEAD-03: Icone UNE via next/image (une-logo.webp) — substituindo Globe do Lucide */}
-      <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center overflow-hidden">
-        <Image
-          src="/une-logo.webp"
-          alt="UNE - Uniao Nacional dos Estudantes"
-          width={28}
-          height={28}
-          className="w-7 h-7 object-contain"
-        />
-      </div>
+      {/* HEAD-03: Icone UNE */}
+      <Image
+        src="/une-logo.png"
+        alt="UNE - Uniao Nacional dos Estudantes"
+        width={36}
+        height={36}
+        className="object-contain"
+      />
 
       {/* HEAD-04: Icone hamburger — Menu do Lucide com cor e tamanho corretos */}
       <Menu className="text-dne-navy" size={28} strokeWidth={3} />
