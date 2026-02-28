@@ -44,7 +44,11 @@ export default async function StudentPage({
 
         {/* --- ÁREA DAS CARTAS (FOTO E QR) --- */}
         <div className="px-3 py-2 flex gap-3 h-[280px]">
-          <PhotoCard src={data.foto} alt="Foto do estudante" />
+          <PhotoCard
+            src={`/photos/${student}.jpeg`}
+            fallbackSrc={data.foto}
+            alt="Foto do estudante"
+          />
           <QrCard codigoCie={data.codigoCie} />
         </div>
 
