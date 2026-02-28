@@ -8,15 +8,15 @@ import { Menu } from "lucide-react";
 export const CardHeader = () => (
   <header className="px-3 pt-2 pb-4 flex justify-between items-center">
     {/* HEAD-01 + HEAD-02: Logo com fonte Nunito e subtitulo */}
-    <div className="flex flex-col">
+    <div className="flex flex-row items-center">
       <h1
-        className="text-white text-4xl font-extrabold tracking-tighter select-none leading-none"
+        className="text-dne-navy text-5xl font-extrabold tracking-tighter select-none leading-none"
         style={{ fontFamily: "var(--font-nunito)" }}
       >
         dne
       </h1>
-      <span className="text-white text-[10px] font-medium leading-tight">
-        Documento Nacional do Estudante
+      <span className="ml-2 text-dne-navy text-[10px] font-medium leading-tight">
+        Documento<br/> Nacional <br/> do Estudante
       </span>
     </div>
 
@@ -33,7 +33,7 @@ export const CardHeader = () => (
       </div>
 
       {/* HEAD-04: Icone hamburger — Menu do Lucide com cor e tamanho corretos */}
-      <Menu className="text-white" size={28} strokeWidth={2} />
+      <Menu className="text-dne-navy" size={28} strokeWidth={3} />
     </div>
   </header>
 );
