@@ -26,7 +26,7 @@ Requirements for initial release (pixel-perfect clone).
 - [ ] **CARD-01**: Card branco com border-radius e shadow corretos (lado a lado: foto | QR)
 - [ ] **CARD-02**: Foto do estudante com proporção e objeto `cover` corretos
 - [ ] **CARD-03**: Sistema de foto local (`/public/photos/`) com fallback para URL externa (CDN)
-- [ ] **CARD-04**: QR code gerado localmente via `qrcode.react` a partir do `codigoCie` (substituir `api.qrserver.com`)
+- [x] **CARD-04**: QR code gerado localmente via `qrcode.react` a partir do `codigoCie` (substituir `api.qrserver.com`)
 - [ ] **CARD-05**: Label "Nº da CIE" + código exibido abaixo do QR
 - [ ] **CARD-06**: Botão copiar (ícone Copy) que copia o código CIE para clipboard com feedback visual
 
@@ -46,9 +46,9 @@ Requirements for initial release (pixel-perfect clone).
 
 ### Dados
 
-- [ ] **DATA-01**: DATABASE atualizado para remover campos `nivel` e `rg` de todos os estudantes
-- [ ] **DATA-02**: Campo `foto` suporta path local (`/photos/nome.jpg`) ou URL externa como fallback
-- [ ] **DATA-03**: Campos do tipo `Student` atualizados para refletir apenas os campos visíveis
+- [x] **DATA-01**: DATABASE atualizado para remover campos `nivel` e `rg` de todos os estudantes
+- [x] **DATA-02**: Campo `foto` suporta path local (`/photos/nome.jpg`) ou URL externa como fallback
+- [x] **DATA-03**: Campos do tipo `Student` atualizados para refletir apenas os campos visíveis
 
 ## v2 Requirements
 
@@ -78,16 +78,16 @@ Deferred to future release.
 | FOUND-02 | Phase 1 | Pending |
 | FOUND-03 | Phase 1 | Pending |
 | FOUND-04 | Phase 1 | Pending |
-| DATA-01 | Phase 1 | Pending |
-| DATA-02 | Phase 1 | Pending |
-| DATA-03 | Phase 1 | Pending |
+| DATA-01 | Phase 1 | Complete |
+| DATA-02 | Phase 1 | Complete |
+| DATA-03 | Phase 1 | Complete |
 | HEAD-01 | Phase 2 | Pending |
 | HEAD-02 | Phase 2 | Pending |
 | HEAD-03 | Phase 2 | Pending |
 | HEAD-04 | Phase 2 | Pending |
 | CARD-01 | Phase 2 | Pending |
 | CARD-02 | Phase 2 | Pending |
-| CARD-04 | Phase 2 | Pending |
+| CARD-04 | Phase 2 | Complete |
 | CARD-05 | Phase 2 | Pending |
 | INFO-01 | Phase 2 | Pending |
 | INFO-02 | Phase 2 | Pending |
