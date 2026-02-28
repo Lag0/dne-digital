@@ -1,11 +1,10 @@
-import { Copy } from "lucide-react";
 import { InfoRow } from "@/components/info-row";
-import Image from "next/image";
-import { QRCodeSVG } from "qrcode.react";
 import { DATABASE, STUDENT_IDS } from "@/constants";
 import { notFound } from "next/navigation";
 import { CardHeader } from "@/components/card-header";
 import { CardFooter } from "@/components/card-footer";
+import { PhotoCard } from "@/components/photo-card";
+import { QrCard } from "@/components/qr-card";
 
 export default async function StudentPage({
   params,
@@ -45,39 +44,8 @@ export default async function StudentPage({
 
         {/* --- ÁREA DAS CARTAS (FOTO E QR) --- */}
         <div className="px-3 py-2 flex gap-3 h-[280px]">
-          {/* Foto do Aluno */}
-          <div className="bg-white rounded-xl p-1.5 shadow-sm w-1/2 relative">
-            <Image
-              src={data.foto}
-              alt="Foto do estudante"
-              width={440}
-              height={550}
-              className="w-full h-full object-cover rounded-lg"
-            />
-            {/* Marca d'água sutil ou brilho se necessário */}
-          </div>
-
-          {/* QR Code */}
-          <div className="bg-white rounded-xl py-1 shadow-sm w-1/2 flex flex-col items-center justify-center text-center relative">
-            <QRCodeSVG
-              value={data.codigoCie}
-              size={160}
-              bgColor="#FFFFFF"
-              fgColor="#000000"
-              level="M"
-              marginSize={1}
-              className="w-[95%] mix-blend-multiply"
-            />
-            <div className="mt-2 flex flex-col items-center">
-              <span className="text-[10px] text-gray-500 font-medium uppercase tracking-wide">
-                Nº da CIE
-              </span>
-              <div className="flex items-center gap-1 text-stone-800 font-bold text-sm">
-                {data.codigoCie}
-                <Copy size={12} className="text-gray-400 ml-1" />
-              </div>
-            </div>
-          </div>
+          <PhotoCard src={data.foto} alt="Foto do estudante" />
+          <QrCard codigoCie={data.codigoCie} />
         </div>
 
         {/* --- CARD DE INFORMAÇÕES --- */}
@@ -98,41 +66,11 @@ export default async function StudentPage({
         </div>
 
         {/* --- FOOTER --- */}
-        <div className="mt-auto px-3 pb-8 w-full flex flex-col gap-4 items-center">
-          {/* Botão Certificado */}
-          <button className="w-[280px] py-3 rounded-full border border-white/40 text-white flex items-center justify-center gap-2 text-sm font-medium backdrop-blur-sm">
-            <div className="w-4 h-4 rounded-full border border-white flex items-center justify-center">
-              <Check size={10} strokeWidth={4} />
-            </div>
-            Certificado
-          </button>
-
-          {/* Botão Apple Wallet */}
-          <div
-            className="h-[46px] rounded-lg transition-colors hover:bg-stone-900 shadow-lg relative overflow-hidden p-0"
-            aria-label="Adicionar à Carteira da Apple"
-          >
-            <Image
-              src={AppleWalletImage}
-              alt="Apple Wallet"
-              width={220}
-              height={35}
-              className="w-[160px] h-[46px]"
-            />
-          </div>
-        </div>
+        <CardFooter />
       </div>
     </main>
   );
 }
-
-const AppleWalletBadge = () => (
-  <AppleWallet
-    className="absolute inset-0 w-full h-full block"
-    role="img"
-    aria-label="Adicionar à Carteira da Apple"
-  />
-);
 
 export function generateStaticParams() {
   return STUDENT_IDS.map((student) => ({ student }));
