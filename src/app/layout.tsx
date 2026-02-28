@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Nunito } from "next/font/google";
 import "./globals.css";
 
@@ -21,6 +21,9 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "DNE Digital",
   description: "Documento Nacional do Estudante",
+};
+
+export const viewport: Viewport = {
   themeColor: "#8CD6BF",
 };
 
