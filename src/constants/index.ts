@@ -30,6 +30,26 @@ export const DATABASE: Record<string, Student> = {
     codigoCie: "10XC8T",
     foto: "https://media.discordapp.net/attachments/1018609889985187911/1441860148632092884/99a243e6-2fdb-4741-a7bc-e5e89f2b5a4b.JPG?ex=69235467&is=692202e7&hm=4979bb6cfa4eb01a8f1af76f4b84fa6b0e3300d7b8d0e60012a804abf4453c4b&=&format=webp&width=733&height=977",
   },
+  herbert: {
+    nome: "Herbert Lazzaroto Meister",
+    instituicao: "Unesc",
+    curso: "Comercio Exterior",
+    cpf: "06798821979",
+    nascimento: "07/02/2002",
+    validade: "31/03/2026",
+    codigoCie: "11YC9U",
+    foto: "/hebert.jpeg",
+  },
+  richard: {
+    nome: "Richard Lazzaroto Meister",
+    instituicao: "Unesc",
+    curso: "Direito",
+    cpf: "11516864921",
+    nascimento: "24/09/2007",
+    validade: "31/03/2026",
+    codigoCie: "12AB3C",
+    foto: "/richards.jpeg",
+  },
 };
 
 export const STUDENT_IDS = Object.keys(DATABASE);
