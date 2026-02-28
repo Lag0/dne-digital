@@ -10,6 +10,14 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* DNE brand tokens */
+  --color-dne-mint: #8CD6BF;
+  --color-dne-navy: #1B3A6B;
+  --color-dne-text: #5C5C5C;
+
+  /* Nunito font token */
+  --font-nunito: var(--font-nunito);
 }
 
 body {
