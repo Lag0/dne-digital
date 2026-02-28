@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-02-28T18:25:52.609Z"
+last_updated: "2026-02-28T18:54:09.320Z"
 progress:
-  total_phases: 1
+  total_phases: 2
   completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
+  total_plans: 8
+  completed_plans: 4
 ---
 
 # Project State
@@ -18,16 +18,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-02-28)
 
 **Core value:** A carteirinha deve ser visualmente indistinguivel do app original DNE — tipografia, cores, espacamento e componentes identicos ao screenshot de referencia
-**Current focus:** Phase 1 — Foundation
+**Current focus:** Phase 2 — Visual Components
 
 ## Current Position
 
-Phase: 1 of 3 (Foundation)
-Plan: 3 of 3 in current phase
-Status: Phase 1 complete
-Last activity: 2026-02-28 — Plan 01-03 complete: container mobile 390x844px, h-[100dvh], bg-dne-mint, bug w-[160px] corrigido
+Phase: 2 of 3 (Visual Components)
+Plan: 1 of 5 in current phase (02-01 complete)
+Status: Phase 2 in progress
+Last activity: 2026-02-28 — Plan 02-01 complete: turbopack.rules SVGR configurado, src/types/svg.d.ts criado, UNE icon como public/une-logo.webp
 
-Progress: [███░░░░░░░] 33%
+Progress: [████░░░░░░] 44%
 
 ## Performance Metrics
 
@@ -67,6 +67,8 @@ Recent decisions affecting current work:
 - [01-03]: h-[100dvh] em vez de h-screen — dvh considera barra de endereco do iOS Safari, evita clipping
 - [01-03]: bg-dne-mint confirma token CSS sobre hex inline para cores DNE
 - [01-03]: 390px/844px sao dimensoes logicas corretas do iPhone 14 (nao 400px/850px)
+- [Phase 02-visual-components]: UNE icon via next/image com public/une-logo.webp — site dne.org.br inacessivel para extracao SVG
+- [Phase 02-visual-components]: turbopack.rules configurado preventivamente para *.svg mesmo sem UNE SVG — util para SVGs futuros
 
 ### Pending Todos
 
@@ -74,10 +76,10 @@ None yet.
 
 ### Blockers/Concerns
 
-- [Phase 2]: Extracao de assets (cor mint exata, fonte, SVG UNE) requer acao humana em dne.org.br — nao pode ser automatizada. Planejar spike curto no inicio de Phase 2.
+- [Resolvido Phase 2]: UNE icon como WebP (public/une-logo.webp) — bloqueador original resolvido sem SVG
 
 ## Session Continuity
 
 Last session: 2026-02-28
-Stopped at: Completed 01-03-PLAN.md — Phase 1 Foundation completa
+Stopped at: Completed 02-01-PLAN.md — SVGR turbopack rules e SVG type declarations configurados
 Resume file: None

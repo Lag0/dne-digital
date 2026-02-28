@@ -18,7 +18,7 @@ Requirements for initial release (pixel-perfect clone).
 
 - [ ] **HEAD-01**: Logo "dne" renderizado com fonte rounded display correta (não Arial)
 - [ ] **HEAD-02**: Texto "Documento Nacional do Estudante" ao lado do logo com tamanho e peso corretos
-- [ ] **HEAD-03**: Ícone UNE (círculo com mapa do Brasil e "UNE") como SVG real (substituir Globe do Lucide)
+- [x] **HEAD-03**: Ícone UNE (círculo com mapa do Brasil e "UNE") como SVG real (substituir Globe do Lucide)
 - [ ] **HEAD-04**: Ícone de menu hamburguer com estilo e cor corretos
 
 ### Card Foto + QR
@@ -83,7 +83,7 @@ Deferred to future release.
 | DATA-03 | Phase 1 | Complete |
 | HEAD-01 | Phase 2 | Pending |
 | HEAD-02 | Phase 2 | Pending |
-| HEAD-03 | Phase 2 | Pending |
+| HEAD-03 | Phase 2 | Complete |
 | HEAD-04 | Phase 2 | Pending |
 | CARD-01 | Phase 2 | Pending |
 | CARD-02 | Phase 2 | Pending |
