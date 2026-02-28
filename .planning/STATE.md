@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-02-28T19:02:41.463Z"
+last_updated: "2026-02-28T19:32:44.248Z"
 progress:
-  total_phases: 2
-  completed_phases: 2
-  total_plans: 8
-  completed_plans: 8
+  total_phases: 3
+  completed_phases: 3
+  total_plans: 10
+  completed_plans: 10
 ---
 
 # Project State
@@ -22,12 +22,12 @@ See: .planning/PROJECT.md (updated 2026-02-28)
 
 ## Current Position
 
-Phase: 2 of 3 (Visual Components)
-Plan: 5 of 5 in current phase (02-05 complete)
-Status: Phase 2 in progress
-Last activity: 2026-02-28 — Plan 02-05 complete: CardFooter extraido como componente RSC, botao Certificado convertido para bg-dne-navy solido, dead code removido
+Phase: 3 of 3 (Polish)
+Plan: 1 of 2 in current phase (03-01 complete)
+Status: Phase 3 in progress
+Last activity: 2026-02-28 — Plan 03-01 complete: PhotoCard convertido para Client Component com fallback local → CDN via onError guard anti-loop (CARD-03)
 
-Progress: [████████░░] 80%
+Progress: [█████████░] 90%
 
 ## Performance Metrics
 
@@ -50,6 +50,8 @@ Progress: [████████░░] 80%
 | Phase 02-visual-components P02-02 | 5 | 2 tasks | 2 files |
 | Phase 02-visual-components P02-03 | 2min | 2 tasks | 3 files |
 | Phase 02-visual-components P02-04 | 2 | 2 tasks | 2 files |
+| Phase 03-polish P03-01 | 1min | 2 tasks | 2 files |
+| Phase 03-polish P03-02 | 1 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -81,6 +83,11 @@ Recent decisions affecting current work:
 - [Phase 02-visual-components]: QrCard RSC puro — Copy e placeholder visual, clipboard interativo em Phase 3 (CARD-06)
 - [Phase 02-visual-components]: InfoCard recebe student: Student como prop completo — evita prop drilling de 5+ campos
 - [Phase 02-visual-components]: InfoRow reutilizado sem modificacao como dependencia interna de InfoCard — nao exposto em page.tsx
+- [03-01]: PhotoCard convertido para Client Component — onError requer 'use client' (nao pode ser passado em RSC)
+- [03-01]: Guard anti-loop obrigatorio em onError: if (imgSrc !== fallbackSrc) — previne loop infinito se fallbackSrc tambem falhar
+- [03-01]: src=/photos/{student}.jpeg como path local padrao — nenhum arquivo existe la, garantindo fallback CDN para todos os estudantes atuais; arquitetura extensivel
+- [Phase 03-02]: QrCard convertido para Client Component — clipboard requer browser API (navigator.clipboard)
+- [Phase 03-02]: FOOT-03: bug w-[160] ja corrigido em 01-03; coerencia semantica width=160/height=46 aplicada em card-footer.tsx
 
 ### Pending Todos
 
@@ -93,5 +100,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-28
-Stopped at: Completed 02-03-PLAN.md — PhotoCard e QrCard extraidos, page.tsx limpo de logica inline de cards
+Stopped at: Completed 03-01-PLAN.md — PhotoCard convertido para Client Component com fallback local → CDN (CARD-03)
 Resume file: None
