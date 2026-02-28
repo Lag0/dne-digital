@@ -16,10 +16,10 @@ Requirements for initial release (pixel-perfect clone).
 
 ### Header
 
-- [ ] **HEAD-01**: Logo "dne" renderizado com fonte rounded display correta (não Arial)
-- [ ] **HEAD-02**: Texto "Documento Nacional do Estudante" ao lado do logo com tamanho e peso corretos
+- [x] **HEAD-01**: Logo "dne" renderizado com fonte rounded display correta (não Arial)
+- [x] **HEAD-02**: Texto "Documento Nacional do Estudante" ao lado do logo com tamanho e peso corretos
 - [x] **HEAD-03**: Ícone UNE (círculo com mapa do Brasil e "UNE") como SVG real (substituir Globe do Lucide)
-- [ ] **HEAD-04**: Ícone de menu hamburguer com estilo e cor corretos
+- [x] **HEAD-04**: Ícone de menu hamburguer com estilo e cor corretos
 
 ### Card Foto + QR
 
@@ -40,8 +40,8 @@ Requirements for initial release (pixel-perfect clone).
 
 ### Footer Buttons
 
-- [ ] **FOOT-01**: Botão "✓ Certificado" como pill azul sólido (`#1B3A6B`) — substituir versão transparente atual
-- [ ] **FOOT-02**: Botão "Adicionar à Carteira da Apple" com badge Apple Wallet visualmente correto
+- [x] **FOOT-01**: Botão "✓ Certificado" como pill azul sólido (`#1B3A6B`) — substituir versão transparente atual
+- [x] **FOOT-02**: Botão "Adicionar à Carteira da Apple" com badge Apple Wallet visualmente correto
 - [ ] **FOOT-03**: Corrigir bug `w-[160]` → `w-[160px]` na imagem do Apple Wallet badge
 
 ### Dados
@@ -81,10 +81,10 @@ Deferred to future release.
 | DATA-01 | Phase 1 | Complete |
 | DATA-02 | Phase 1 | Complete |
 | DATA-03 | Phase 1 | Complete |
-| HEAD-01 | Phase 2 | Pending |
-| HEAD-02 | Phase 2 | Pending |
+| HEAD-01 | Phase 2 | Complete |
+| HEAD-02 | Phase 2 | Complete |
 | HEAD-03 | Phase 2 | Complete |
-| HEAD-04 | Phase 2 | Pending |
+| HEAD-04 | Phase 2 | Complete |
 | CARD-01 | Phase 2 | Pending |
 | CARD-02 | Phase 2 | Pending |
 | CARD-04 | Phase 2 | Complete |
@@ -94,8 +94,8 @@ Deferred to future release.
 | INFO-03 | Phase 2 | Pending |
 | INFO-04 | Phase 2 | Pending |
 | INFO-05 | Phase 2 | Pending |
-| FOOT-01 | Phase 2 | Pending |
-| FOOT-02 | Phase 2 | Pending |
+| FOOT-01 | Phase 2 | Complete |
+| FOOT-02 | Phase 2 | Complete |
 | CARD-03 | Phase 3 | Pending |
 | CARD-06 | Phase 3 | Pending |
 | FOOT-03 | Phase 3 | Pending |

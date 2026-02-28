@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-02-28T18:57:16.438Z"
+last_updated: "2026-02-28T18:58:22.904Z"
 progress:
   total_phases: 2
   completed_phases: 1
   total_plans: 8
-  completed_plans: 5
+  completed_plans: 7
 ---
 
 # Project State
@@ -23,11 +23,11 @@ See: .planning/PROJECT.md (updated 2026-02-28)
 ## Current Position
 
 Phase: 2 of 3 (Visual Components)
-Plan: 2 of 5 in current phase (02-02 complete)
+Plan: 5 of 5 in current phase (02-05 complete)
 Status: Phase 2 in progress
-Last activity: 2026-02-28 — Plan 02-02 complete: CardHeader RSC criado com font Nunito, subtitulo DNE, icone UNE via next/image, integrado em page.tsx
+Last activity: 2026-02-28 — Plan 02-05 complete: CardFooter extraido como componente RSC, botao Certificado convertido para bg-dne-navy solido, dead code removido
 
-Progress: [█████░░░░░] 56%
+Progress: [████████░░] 80%
 
 ## Performance Metrics
 
@@ -48,6 +48,7 @@ Progress: [█████░░░░░] 56%
 
 *Updated after each plan completion*
 | Phase 02-visual-components P02-02 | 5 | 2 tasks | 2 files |
+| Phase 02-visual-components P02-03 | 2min | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -73,6 +74,10 @@ Recent decisions affecting current work:
 - [Phase 02-visual-components]: UNE icon via next/image com public/une-logo.webp — SVGR nao necessario para WebP
 - [Phase 02-visual-components]: CardHeader como named export RSC em src/components/ sem use client
 - [Phase 02-visual-components]: fontFamily via CSS custom property var(--font-nunito) — nao string inline Arial
+- [02-05]: bg-dne-navy (pill solido #1B3A6B) para botao Certificado — substitui transparente-com-borda do design anterior
+- [02-05]: Dead code AppleWalletBadge removido de page.tsx — componente definido mas nunca usado no JSX
+- [Phase 02-visual-components]: PhotoCard usa fill em vez de width=440 height=550 — elimina distorcao de proporcao da foto
+- [Phase 02-visual-components]: QrCard RSC puro — Copy e placeholder visual, clipboard interativo em Phase 3 (CARD-06)
 
 ### Pending Todos
 
@@ -85,5 +90,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-28
-Stopped at: Completed 02-02-PLAN.md — CardHeader criado e integrado em page.tsx
+Stopped at: Completed 02-05-PLAN.md — CardFooter criado e integrado em page.tsx, dead code removido
 Resume file: None
