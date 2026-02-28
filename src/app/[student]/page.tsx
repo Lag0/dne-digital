@@ -1,11 +1,11 @@
-import { Globe, Menu, Copy, Check } from "lucide-react";
+import { Copy } from "lucide-react";
 import { InfoRow } from "@/components/info-row";
 import Image from "next/image";
 import { QRCodeSVG } from "qrcode.react";
 import { DATABASE, STUDENT_IDS } from "@/constants";
 import { notFound } from "next/navigation";
-import AppleWallet from "@/components/apple-wallet";
-import AppleWalletImage from "@/assets/Add_to_Apple_Wallet_badge.png";
+import { CardHeader } from "@/components/card-header";
+import { CardFooter } from "@/components/card-footer";
 
 export default async function StudentPage({
   params,
@@ -41,22 +41,7 @@ export default async function StudentPage({
         {/* <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120px] h-[30px] bg-black rounded-b-3xl z-10 hidden md:block pointer-events-none"></div> */}
 
         {/* --- HEADER --- */}
-        <header className="px-3 pt-2 pb-4 flex justify-between items-center">
-          {/* Logo DNE customizado com fonte parecida */}
-          <h1
-            className="text-white text-4xl font-extrabold tracking-tighter select-none"
-            style={{ fontFamily: "Arial, sans-serif" }}
-          >
-            dne
-          </h1>
-
-          <div className="flex items-center gap-4">
-            <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-              <Globe className="text-[#005c9e]" size={20} strokeWidth={2.5} />
-            </div>
-            <Menu className="text-white" size={28} strokeWidth={2} />
-          </div>
-        </header>
+        <CardHeader />
 
         {/* --- ÁREA DAS CARTAS (FOTO E QR) --- */}
         <div className="px-3 py-2 flex gap-3 h-[280px]">
