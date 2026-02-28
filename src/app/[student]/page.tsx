@@ -1,10 +1,10 @@
-import { InfoRow } from "@/components/info-row";
 import { DATABASE, STUDENT_IDS } from "@/constants";
 import { notFound } from "next/navigation";
 import { CardHeader } from "@/components/card-header";
 import { CardFooter } from "@/components/card-footer";
 import { PhotoCard } from "@/components/photo-card";
 import { QrCard } from "@/components/qr-card";
+import { InfoCard } from "@/components/info-card";
 
 export default async function StudentPage({
   params,
@@ -49,21 +49,7 @@ export default async function StudentPage({
         </div>
 
         {/* --- CARD DE INFORMAÇÕES --- */}
-        <div className="mx-3 mt-3 bg-white rounded-2xl p-5 shadow-sm relative">
-          {/* Nome Principal */}
-          <h2 className="text-[#555555] font-bold text-lg mb-3 leading-tight">
-            {data.nome}
-          </h2>
-
-          {/* Lista de Dados - Usando grid para alinhamento perfeito */}
-          <div className="space-y-[5px] text-[13px] leading-snug">
-            <InfoRow label="Ins. Ensino" value={data.instituicao} />
-            <InfoRow label="Curso" value={data.curso} />
-            <InfoRow label="CPF" value={data.cpf} />
-            <InfoRow label="Data de Nasc" value={data.nascimento} />
-            <InfoRow label="Validade" value={data.validade} />
-          </div>
-        </div>
+        <InfoCard student={data} />
 
         {/* --- FOOTER --- */}
         <CardFooter />
