@@ -32,11 +32,11 @@ Requirements for initial release (pixel-perfect clone).
 
 ### Card Informações
 
-- [ ] **INFO-01**: Card branco com border-radius, shadow e padding corretos
-- [ ] **INFO-02**: Nome do estudante em bold com tamanho e cor corretos
-- [ ] **INFO-03**: 5 campos exatos da foto de referência: Ins. Ensino, Curso, CPF, Data de Nasc, Validade
-- [ ] **INFO-04**: Remover campos "Nível de Ensino" e "RG" (não aparecem no app original)
-- [ ] **INFO-05**: Pattern visual: label em bold + valor em peso normal, cor cinza `#5C5C5C` → `gray-500`
+- [x] **INFO-01**: Card branco com border-radius, shadow e padding corretos
+- [x] **INFO-02**: Nome do estudante em bold com tamanho e cor corretos
+- [x] **INFO-03**: 5 campos exatos da foto de referência: Ins. Ensino, Curso, CPF, Data de Nasc, Validade
+- [x] **INFO-04**: Remover campos "Nível de Ensino" e "RG" (não aparecem no app original)
+- [x] **INFO-05**: Pattern visual: label em bold + valor em peso normal, cor cinza `#5C5C5C` → `gray-500`
 
 ### Footer Buttons
 
@@ -89,11 +89,11 @@ Deferred to future release.
 | CARD-02 | Phase 2 | Complete |
 | CARD-04 | Phase 2 | Complete |
 | CARD-05 | Phase 2 | Complete |
-| INFO-01 | Phase 2 | Pending |
-| INFO-02 | Phase 2 | Pending |
-| INFO-03 | Phase 2 | Pending |
-| INFO-04 | Phase 2 | Pending |
-| INFO-05 | Phase 2 | Pending |
+| INFO-01 | Phase 2 | Complete |
+| INFO-02 | Phase 2 | Complete |
+| INFO-03 | Phase 2 | Complete |
+| INFO-04 | Phase 2 | Complete |
+| INFO-05 | Phase 2 | Complete |
 | FOOT-01 | Phase 2 | Complete |
 | FOOT-02 | Phase 2 | Complete |
 | CARD-03 | Phase 3 | Pending |
