@@ -70,6 +70,16 @@ export const DATABASE: Record<string, Student> = {
     codigoCie: "10XC8T",
     foto: "https://cdn.discordapp.com/attachments/1018609889985187911/1455711688358629466/59c47756-afe8-4d22-865b-d5b4feecb172.jpg?ex=6955b8a8&is=69546728&hm=c1585e1184ad8fc5c16e2db25e09e5db8dffde963ad528c0da2c757ae8cab7d2&",
   },
+  isadora: {
+    nome: "Isadora Senem Machado",
+    instituicao: "Univali",
+    curso: "Engenharia Civil",
+    cpf: "089.413.399-36",
+    nascimento: "22/04/2003",
+    validade: "31/04/2026",
+    codigoCie: "13DE4F",
+    foto: "/isadora.webp",
+  },
 };
 
 export const STUDENT_IDS = Object.keys(DATABASE);
